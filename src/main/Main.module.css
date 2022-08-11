@@ -1,0 +1,17 @@
+.mainBlock{
+    height: 100vh;
+    background: #4d9769;
+}
+
+.intro{
+    border: 1px solid;
+    width: 300px;
+    background: #cce1d4;
+}
+
+.photo{
+    border: 1px solid red;
+    width: 300px;
+    height: 400px;
+    background: #e1dccc;
+}
