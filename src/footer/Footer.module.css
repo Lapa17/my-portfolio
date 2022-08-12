@@ -1,8 +1,9 @@
-.skillsBlock{
+.footerBlock{
     background: #deb9b5;
+    height: 35vh;
 }
 
-.skillsContainer {
+.footerContainer {
     flex-direction: column;
     justify-content: flex-start;
     flex-wrap: nowrap;
@@ -10,7 +11,7 @@
 .title{
     background: #58b7d1;
 }
-.skills{
+.footer{
     border: 1px solid;
     background: #515f63;
     width: 100%;
