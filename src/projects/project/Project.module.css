@@ -1,5 +1,5 @@
 .project{
-    width: 250px;
+    width: 290px;
     background-color: azure;
     border: 1px solid;
     display: flex;
@@ -15,4 +15,15 @@
 
 .descr{
     text-align: center;
+}
+
+@media (max-width: 760px) {
+    .project{
+        width: 250px;
+    }
+}
+@media (max-width: 630px) {
+    .project{
+        width: 90%;
+    }
 }

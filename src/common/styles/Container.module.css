@@ -8,3 +8,10 @@
     align-items: center;
     flex-wrap: wrap;
    }
+   /* color:#e3af00 */
+
+   @media (max-width: 530px) {
+    .container{
+        justify-content: center;
+    }
+}

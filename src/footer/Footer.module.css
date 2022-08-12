@@ -14,8 +14,14 @@
 .footer{
     border: 1px solid;
     background: #515f63;
-    width: 100%;
+    width: 400px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+
+@media (max-width:500px) {
+    .footer{
+        width: 100%;
+    }
 }

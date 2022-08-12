@@ -11,6 +11,9 @@ export const Projects = () => {
                 <div className={style.projects}>
                     <Project />
                     <Project />
+                    <Project />
+                    <Project />
+                    <Project />
                 </div>
             </div>
         </div>

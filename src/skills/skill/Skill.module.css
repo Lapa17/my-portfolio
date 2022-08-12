@@ -1,5 +1,5 @@
 .skill{
-    width: 250px;
+    width: 30%;
     background-color: azure;
     border: 1px solid;
     display: flex;
@@ -15,4 +15,10 @@
 
 .descr{
     text-align: center;
+}
+
+@media (max-width: 650px) {
+    .skill{
+        width: 47%;
+    }
 }

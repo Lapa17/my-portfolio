@@ -5,7 +5,6 @@
 
 .intro{
     border: 1px solid;
-    width: 300px;
     background: #cce1d4;
 }
 
@@ -14,4 +13,23 @@
     width: 300px;
     height: 400px;
     background: #e1dccc;
+}
+
+@media (max-width: 760px) {
+    .photo{
+        width: 220px;
+    }
+    .intro{
+        width: 200px;
+    }
+}
+
+@media (max-width: 530px) {
+    .photo{
+        width: 90%;
+        height: 300px;
+    }
+    .intro{
+        width: 90%;
+    }
 }

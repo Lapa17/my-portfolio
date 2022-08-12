@@ -23,9 +23,15 @@
 }
 
 .form{
-    height: 150px;
+    min-height: 150px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    width: 80%;
+    width: 350px;
+}
+
+@media (max-width:500px) {
+    .form{
+        width:100%;
+    }
 }
